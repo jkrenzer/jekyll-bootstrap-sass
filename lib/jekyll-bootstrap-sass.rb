@@ -5,7 +5,7 @@ require 'find'
 require 'bootstrap'
 
 module Jekyll
-  module Bootstrap
+  module BootstrapSass
     class Generator < Jekyll::Generator
       def generate(site)
         @site = site
